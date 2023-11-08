@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background3"
+    tools:context=".FirstEsm_Activity">
+
+
+    <Button
+        android:id="@+id/buttonEvs"
+        android:layout_width="326dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="40dp"
+        android:drawableLeft="@drawable/baseline_book_24"
+        android:text="EVS"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/colorBlack"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.682"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonNano" />
+
+    <Button
+        android:id="@+id/buttonNano"
+        android:layout_width="326dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="40dp"
+        android:drawableLeft="@drawable/baseline_book_24"
+        android:text="NANO SCIENCE"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/colorBlack"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonEngMechanic" />
+
+    <Button
+        android:id="@+id/buttonEngMechanic"
+        android:layout_width="326dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="40dp"
+        android:drawableLeft="@drawable/baseline_book_24"
+        android:text="ENG.MECHANIC"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/colorBlack"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonBiology" />
+
+    <Button
+        android:id="@+id/buttonBiology"
+        android:layout_width="326dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="44dp"
+        android:drawableLeft="@drawable/baseline_book_24"
+        android:text="BIOLOGY"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/colorBlack"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonMaths" />
+
+    <Button
+        android:id="@+id/buttonMaths"
+        android:layout_width="326dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="40dp"
+        android:drawableLeft="@drawable/baseline_book_24"
+        android:text="MATHS"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/colorBlack"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonPhysics" />
+
+    <Button
+        android:id="@+id/buttonPhysics"
+        android:layout_width="326dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="44dp"
+        android:drawableLeft="@drawable/baseline_book_24"
+
+        android:text="PHYSICS"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/colorBlack"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.682"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="221dp"
+        android:layout_height="48dp"
+        android:text="WELCOME"
+        android:textColor="@color/colorwhite"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.621"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.046" />
+</androidx.constraintlayout.widget.ConstraintLayout>

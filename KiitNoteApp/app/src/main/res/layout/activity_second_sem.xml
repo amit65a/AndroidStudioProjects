@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fifthsem"
+    tools:context=".Second_Sem_Activity">
+
+
+        <Button
+            android:id="@+id/buttonMath"
+            android:layout_width="308dp"
+            android:layout_height="54dp"
+            android:drawableLeft="@drawable/baseline_bookmark_24"
+            android:text="MATHS"
+            android:textColor="@color/colorBlack"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:backgroundTint="@color/colorwhite"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonChemistry"
+            app:layout_constraintVertical_bias="0.083" />
+
+        <Button
+            android:id="@+id/buttonMechanical"
+            android:layout_width="308dp"
+            android:layout_height="54dp"
+            android:layout_marginTop="44dp"
+            android:drawableLeft="@drawable/baseline_bookmark_24"
+            android:text="MECHANICAL"
+            android:textColor="@color/colorBlack"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:backgroundTint="@color/colorwhite"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonBsasiEle" />
+
+        <Button
+            android:id="@+id/buttonCEP"
+            android:layout_width="308dp"
+            android:layout_height="54dp"
+            android:layout_marginTop="44dp"
+            android:drawableLeft="@drawable/baseline_bookmark_24"
+            android:text="CEP"
+            android:textColor="@color/colorBlack"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:backgroundTint="@color/colorwhite"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.504"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonMechanical" />
+
+        <Button
+            android:id="@+id/buttonBsasiEle"
+            android:layout_width="308dp"
+            android:layout_height="54dp"
+            android:layout_marginTop="44dp"
+            android:drawableLeft="@drawable/baseline_bookmark_24"
+            android:text="BASIC ELECTRONIC"
+            android:textColor="@color/colorBlack"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:backgroundTint="@color/colorwhite"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonEnglish" />
+
+        <Button
+            android:id="@+id/buttonEnglish"
+            android:layout_width="308dp"
+            android:layout_height="54dp"
+            android:layout_marginTop="44dp"
+            android:drawableLeft="@drawable/baseline_bookmark_24"
+            android:text="ENGLISH"
+            android:textColor="@color/colorBlack"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:backgroundTint="@color/colorwhite"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonMath" />
+
+        <Button
+            android:id="@+id/buttonChemistry"
+            android:layout_width="308dp"
+            android:layout_height="54dp"
+            android:layout_marginTop="40dp"
+            android:drawableLeft="@drawable/baseline_bookmark_24"
+            android:text="CHEMISTRY"
+            android:textColor="@color/colorBlack"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:backgroundTint="@color/colorwhite"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WELCOME"
+            android:textColor="@color/black"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.088" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

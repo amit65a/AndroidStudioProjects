@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background3"
+    tools:context=".Fifth_Sem_Activity">
+
+    <Button
+        android:id="@+id/buttonAI"
+        android:layout_width="326dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="40dp"
+        android:drawableLeft="@drawable/baseline_book_24"
+        android:text="ELECTIVE 1"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/colorBlack"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonSE" />
+
+    <Button
+        android:id="@+id/buttonBd"
+        android:layout_width="326dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="36dp"
+        android:drawableLeft="@drawable/baseline_book_24"
+        android:text="ELECTIVE 2"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/colorBlack"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonAI" />
+
+    <Button
+        android:id="@+id/buttonSE"
+        android:layout_width="326dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="40dp"
+        android:drawableLeft="@drawable/baseline_book_24"
+        android:text="SOFTWARE ENG"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/colorBlack"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonHpc" />
+
+    <Button
+        android:id="@+id/buttonHpc"
+        android:layout_width="326dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="44dp"
+        android:drawableLeft="@drawable/baseline_book_24"
+        android:text="HPC"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/colorBlack"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonDaa" />
+
+    <Button
+        android:id="@+id/buttonDaa"
+        android:layout_width="326dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="40dp"
+        android:drawableLeft="@drawable/baseline_book_24"
+        android:text="DAA"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/colorBlack"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonComputerNetwok" />
+
+    <Button
+        android:id="@+id/buttonComputerNetwok"
+        android:layout_width="326dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="52dp"
+        android:drawableLeft="@drawable/baseline_book_24"
+        android:text="COMPUTER NETWORK"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/colorBlack"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="221dp"
+        android:layout_height="48dp"
+        android:text="WELCOME"
+        android:textColor="@color/colorwhite"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.594"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.039" />
+</androidx.constraintlayout.widget.ConstraintLayout>

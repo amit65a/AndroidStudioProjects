@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fifthsem"
+    tools:context=".Fourth_Sem_Activity">
+
+
+    <Button
+        android:id="@+id/buttonPdc"
+        android:layout_width="308dp"
+        android:layout_height="54dp"
+        android:drawableLeft="@drawable/baseline_bookmark_24"
+        android:text="PDC"
+        android:textColor="@color/colorBlack"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/colorwhite"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonCoa"
+        app:layout_constraintVertical_bias="0.083" />
+
+    <Button
+        android:id="@+id/buttonOperatingsystem"
+        android:layout_width="308dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="44dp"
+        android:drawableLeft="@drawable/baseline_bookmark_24"
+        android:text="OPERATING SYSTEM"
+        android:textColor="@color/colorBlack"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/colorwhite"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonDbms" />
+
+<!--    <Button-->
+<!--        android:id="@+id/buttonCEP"-->
+<!--        android:layout_width="308dp"-->
+<!--        android:layout_height="54dp"-->
+<!--        android:layout_marginTop="44dp"-->
+<!--        android:text="CEP"-->
+<!--        android:textColor="@color/colorBlack"-->
+<!--        android:textSize="24sp"-->
+<!--        android:textStyle="bold"-->
+<!--        app:backgroundTint="@color/colorwhite"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.504"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/buttonOperatingsystem" />-->
+
+    <Button
+        android:id="@+id/buttonDbms"
+        android:layout_width="308dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="44dp"
+        android:drawableLeft="@drawable/baseline_bookmark_24"
+        android:text="DBMS"
+        android:textColor="@color/colorBlack"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/colorwhite"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonJava" />
+
+    <Button
+        android:id="@+id/buttonJava"
+        android:layout_width="308dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="44dp"
+        android:drawableLeft="@drawable/baseline_bookmark_24"
+        android:text="JAVA"
+        android:textColor="@color/colorBlack"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/colorwhite"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonPdc" />
+
+    <Button
+        android:id="@+id/buttonCoa"
+        android:layout_width="308dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="40dp"
+        android:drawableLeft="@drawable/baseline_bookmark_24"
+        android:text="COA"
+        android:textColor="@color/colorBlack"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/colorwhite"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WELCOME"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.088" />
+</androidx.constraintlayout.widget.ConstraintLayout>

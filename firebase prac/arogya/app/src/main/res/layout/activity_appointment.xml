@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".Appointment">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/back" />
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <CalendarView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/calendar_bg"
+            android:elevation="7dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/nexabold"
+            android:text="Select Consultation Time"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <RadioButton
+                android:id="@+id/btn1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/radio_slot_selector"
+                android:button="@android:color/transparent"
+                android:elevation="4dp"
+                android:text="9:00 AM"
+                android:textAlignment="center"
+                android:textColor="@drawable/text_radio_slot" />
+
+            <RadioButton
+                android:id="@+id/btn2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/radio_slot_selector"
+                android:button="@android:color/transparent"
+                android:elevation="4dp"
+                android:text="10:00 AM"
+                android:textAlignment="center"
+                android:textColor="@drawable/text_radio_slot" />
+
+            <RadioButton
+                android:id="@+id/btn3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/radio_slot_selector"
+                android:button="@android:color/transparent"
+                android:elevation="4dp"
+                android:text="5:00 PM"
+                android:textAlignment="center"
+                android:textColor="@drawable/text_radio_slot" />
+
+            <RadioButton
+                android:id="@+id/btn4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/radio_slot_selector"
+                android:button="@android:color/transparent"
+                android:elevation="4dp"
+                android:text="6:00 PM"
+                android:textAlignment="center"
+                android:textColor="@drawable/text_radio_slot" />
+        </RadioGroup>
+
+        <androidx.appcompat.widget.AppCompatButton
+
+            android:id="@+id/MakeAppointmentButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/custom_button"
+            android:fontFamily="@font/nexabold"
+            android:paddingHorizontal="40dp"
+            android:text="Make Appointment"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+</LinearLayout>

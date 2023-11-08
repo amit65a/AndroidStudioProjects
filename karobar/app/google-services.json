@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "877534802090",
+    "firebase_url": "https://karobar-f46ae-default-rtdb.firebaseio.com",
+    "project_id": "karobar-f46ae",
+    "storage_bucket": "karobar-f46ae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:877534802090:android:f64d2b60b87fa7a74820d3",
+        "android_client_info": {
+          "package_name": "com.example.karobar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "877534802090-8qqi9j5f81c5br8lsj2c7g5e6h78u2gp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-FYDBvpeSEQuirvOBY87vUC5xsxxsj1E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "877534802090-8qqi9j5f81c5br8lsj2c7g5e6h78u2gp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

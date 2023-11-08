@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">ButtonClickEvent</string>
+    <string name="enter_Email">Enter your Email</string>
+    <string name="click_me">Click Me</string>
+    <string name="email">Email :</string>
+</resources>

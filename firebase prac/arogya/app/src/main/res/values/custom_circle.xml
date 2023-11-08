@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="cornerRadius">
+        <item name="cornerSize">15%</item>
+    </style>
+    <style name="cornerRadiusLower">
+        <item name="cornerSizeBottomLeft">15%</item>
+        <item name="cornerSizeBottomRight">15%</item>
+        <item name="cornerSizeTopLeft">5%</item>
+        <item name="cornerSizeTopRight">5%</item>
+    </style>
+    <style name="solid">
+        <item name="android:background">@color/black</item>
+    </style>
+
+</resources>

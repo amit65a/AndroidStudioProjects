@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.KiitNoteApp"
+        tools:targetApi="31">
+        <activity
+            android:name=".Second_Sem_scheme2_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".First_Sem_scheme2_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".six_sem_gpa_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Fifth_sem_gpa_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Fouth_sem_gpa_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Third_Sem_Gpa_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Second_sem_cgpa_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".GPA_CalCulation_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Notes_detail_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Material_Details_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Eight_sem_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Seventh_sem_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Sixth_Sem_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Fifth_Sem_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Fourth_Sem_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Third_Sem_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Second_Sem_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".FirstEsm_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Semsters_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".SGPA_Login_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Different_Years_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Login_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Register_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false"/>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+
+    </application>
+
+</manifest>

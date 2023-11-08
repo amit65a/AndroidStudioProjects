@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources >
+
+    <string-array name="vehicleNumber">
+
+        <item>रा १ ख २८६२</item>
+        <item>लु २ ख ६२२५</item>
+        <item>रा १ त ४७७६</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>अन्य</item>
+    </string-array>
+</resources>

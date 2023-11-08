@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="tel">
+
+        <item>पेट्रोल</item>
+        <item>डिजेल</item>
+    </string-array>
+</resources>

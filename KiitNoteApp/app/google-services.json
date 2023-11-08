@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "556204591215",
+    "project_id": "kiit-note-app",
+    "storage_bucket": "kiit-note-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:556204591215:android:4705c8738b218505b6259a",
+        "android_client_info": {
+          "package_name": "com.example.kiitnoteapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDc7p625Xgx8yMevEU80GNskorPSkiT6o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

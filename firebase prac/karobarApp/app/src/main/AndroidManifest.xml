@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.KarobarApp"
+        tools:targetApi="31">
+        <activity
+            android:name=".splashScreen"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Kharid.updatekharid"
+            android:exported="false"
+            android:parentActivityName=".Kharid.readDataKharid" />
+        <activity
+            android:name=".Kharid.readDataKharid"
+            android:exported="false"
+            android:parentActivityName=".Kharid.kharid" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false">
+        </activity>
+        <activity
+            android:name=".Others.updateothers"
+            android:exported="false"
+            android:parentActivityName=".Others.readDataOthers" />
+        <activity
+            android:name=".Others.readDataOthers"
+            android:exported="false"
+            android:parentActivityName=".Others.others" />
+        <activity
+            android:name=".MBC.updatembc"
+            android:exported="false"
+            android:parentActivityName=".MBC.readdata" />
+        <activity
+            android:name=".Kharid.kharid"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MBC.readdata"
+            android:exported="false"
+            android:parentActivityName=".MBC.mbc" />
+        <activity
+            android:name=".bikri"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Others.others"
+            android:exported="false"
+            android:parentActivityName=".bikri" />
+        <activity
+            android:name=".MBC.mbc"
+            android:exported="false"
+            android:parentActivityName=".bikri" />
+    </application>
+
+</manifest>
